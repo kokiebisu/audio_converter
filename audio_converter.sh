@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# This script converts a audio file into .wav
+
 INPUT_FILE=$1
 BASE_DIR=$(dirname $INPUT_FILE)
 BASE_NAME=$(basename -s .txt $INPUT_FILE)
